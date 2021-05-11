@@ -37,7 +37,7 @@ void Print(array<int, 100> &arr, int n)
 int IndexOfMinOddElement(array<int, 100>& arr, int n)
 {
     double minOddElem;
-    unsigned int minOddElemIndex = -1; //If there is no min odd element
+    int minOddElemIndex = -1; //If there is no min odd element
 
     for (int i = 0; i < n; i++)
     {
